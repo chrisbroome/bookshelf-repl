@@ -27,5 +27,8 @@
     "knex": "^0.7.3",
     "lodash": "^2.4.1",
     "some-graph": "0.0.2"
+  },
+  "devDependencies": {
+    "mysql": "^2.5.4"
   }
 }
