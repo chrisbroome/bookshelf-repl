@@ -2,13 +2,19 @@
 A REPL for your Bookshelf.js projects
 
 # Example
+
+##### Your code
+
 ```JavaScript
 var
   dbRepl = require('bookshelf-repl')
-  knex = require('knex').initialize(getKnexConfig());
+  knex = require('knex').initialize(getKnexConfig()),
+  options = {
+    prompt: 'DB> '
+  };
 
 dbRepl
-  .start(knex)
+  .start(knex, options)
   .then(function(repl) {
     repl.on('exit', function onReplExit() {
       console.log('Got "exit" event from repl!');
@@ -22,3 +28,7 @@ function getKnexConfig() {
   return {};
 }
 ```
+
+#### The repl
+
+TODO: Document repl globals
