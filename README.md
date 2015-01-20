@@ -7,7 +7,7 @@ A REPL for your Bookshelf.js projects
 
 ```JavaScript
 var
-  dbRepl = require('bookshelf-repl')
+  dbRepl = require('bookshelf-repl'),
   knex = require('knex').initialize(getKnexConfig()),
   options = {
     prompt: 'DB> '
