@@ -1,6 +1,6 @@
 {
   "name": "bookshelf-repl",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A REPL for your Bookshelf.js projects",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/chrisbroome/bookshelf-repl",
   "dependencies": {
-    "bluebird": "^2.7.1",
+    "bluebird": "^2.8.1",
     "bookshelf": "^0.7.9",
     "knex": "^0.7.3",
     "lodash": "^2.4.1",
