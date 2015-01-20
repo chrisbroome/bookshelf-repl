@@ -3,7 +3,7 @@ A REPL for your Bookshelf.js projects
 
 # Example
 
-##### Your code
+### Your code
 
 ```JavaScript
 var
@@ -29,6 +29,11 @@ function getKnexConfig() {
 }
 ```
 
-#### The repl
+### The repl
 
-TODO: Document repl globals
+##### Globals
+A few globals are created when the repl starts:
+- ld - [lodash](https://lodash.com/)
+- knex - The [knex](http://knexjs.org/) instance used to initialize the REPL
+- bookshelf - A [bookshelf](http://bookshelfjs.org/) instance created using the given `knex` instance
+- db - An object with some metadata about the current database connection
