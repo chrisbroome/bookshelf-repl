@@ -1,6 +1,9 @@
 # bookshelf-repl
 A REPL for your Bookshelf.js projects
 
+# Notes
+Currently only works with MySQL.
+
 # Example
 
 ### Your code
